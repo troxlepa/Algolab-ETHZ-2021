@@ -22,9 +22,9 @@ void solve(){
       int odd = 0;
       int even = 0;
       for(int x = 1; x <= N; x++) {
-        if (sum(i,j,x) % 2 == 1) {
+        if(sum(i,j,x) % 2 == 1) {
           odd++;
-        }  else {
+        }else{
           even++;
         }
       }
